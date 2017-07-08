@@ -1,5 +1,5 @@
 # NBA Stats
-A website containing all relevant NBA stats for quick viewing
+A website containing all relevant NBA stats for quick viewing. Uses the nba_py library, Flask, Python, and HTML/CSS.
 
 ## Features
 * Records all stats since as early as the 1960's
@@ -15,19 +15,28 @@ A website containing all relevant NBA stats for quick viewing
 
 ## How to Use
 Use pip to install:
-1. Flask
-2. requests
-3. nba_py
-4. pytz
-5. praw
-6. beautifulsoup4
-7. google-api-python-client
-8. Install python-dateutil
+1. ```Flask```
+2. ```requests```
+3. ```nba_py```
+4. ```pytz```
+5. ```praw```
+6. ```beautifulsoup4```
+7. ```google-api-python-client```
+8. ```Install python-dateutil```
 
 Next, create a YouTube Data v3 API Credentials Key at: https://console.developers.google.com/apis/dashboard
 Create a Reddit Client ID and Client Secret Key at: https://www.reddit.com/prefs/apps
 Put the YouTube and Reddit API keys inside __init__.py.
 
+Create YouTube Data v3 API Credentials Key at:
+[https://console.developers.google.com/apis/dashboard](https://console.developers.google.com/apis/dashboard)
+
+Create Reddit Client ID and Client Secret Key at:
+[https://www.reddit.com/prefs/apps](https://www.reddit.com/prefs/apps)
+
+Put the YouTube and Reddit API keys inside `__init__.py`
+
+```
 # YouTube Developer Key
 DEVELOPER_KEY = ""
 YOUTUBE_API_SERVICE_NAME = "youtube"
@@ -36,7 +45,10 @@ YOUTUBE_API_VERSION = "v3"
 # Reddit API Key
 reddit = praw.Reddit(client_id="",
                      client_secret="",
-                     user_agent="bballfast by /u/microwavesam")
+                     user_agent="anything")
+```
+
+To run the server locally on port 8080, type ```python __init__.py``` in the command line.
 
 ## Screenshots
 ![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc1.PNG)
