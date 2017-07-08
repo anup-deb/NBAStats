@@ -11,6 +11,33 @@ A website containing all relevant NBA stats for quick viewing
 * Includes team logos, player images, game-unrelated facts such as College attended, Age, Hometown, Draft pick, Years in league, etc.
 * Box scores include information such as FG, FG%, MINS, REB, PTS, OREB, DREB, 3PT, 3PT%, FT, FT%, STL, BLK, TOV, PF, +/-
 * Allows for tables to be sorted by any statistical category
+* Stores stats for individual games
+
+## How to Use
+Use pip to install:
+1. Flask
+2. requests
+3. nba_py
+4. pytz
+5. praw
+6. beautifulsoup4
+7. google-api-python-client
+8. Install python-dateutil
+
+Next, create a YouTube Data v3 API Credentials Key at: https://console.developers.google.com/apis/dashboard
+Create a Reddit Client ID and Client Secret Key at: https://www.reddit.com/prefs/apps
+Put the YouTube and Reddit API keys inside __init__.py.
+
+# YouTube Developer Key
+DEVELOPER_KEY = ""
+YOUTUBE_API_SERVICE_NAME = "youtube"
+YOUTUBE_API_VERSION = "v3"
+
+# Reddit API Key
+reddit = praw.Reddit(client_id="",
+                     client_secret="",
+                     user_agent="bballfast by /u/microwavesam")
+
 ## Screenshots
 ![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc1.PNG)
 ![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc2.PNG)
