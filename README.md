@@ -12,4 +12,7 @@ A website containing all relevant NBA stats for quick viewing
 * Box scores include information such as FG, FG%, MINS, REB, PTS, OREB, DREB, 3PT, 3PT%, FT, FT%, STL, BLK, TOV, PF, +/-
 * Allows for tables to be sorted by any statistical category
 ## Screenshots
- 
+![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc1.PNG)
+![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc2.PNG)
+![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc3.PNG)
+![Screenshot](https://github.com/anup-deb/NBAStats/blob/master/images/sc4.PNG)
