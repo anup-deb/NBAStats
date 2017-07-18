@@ -2,7 +2,7 @@
 A website containing all relevant NBA stats for quick viewing. Uses the nba_py library, Flask, Python, and HTML/CSS.
 
 ## Features
-* Records all stats since as early as the 1960's
+* Records important NBA stats since as early as the 1960's
 * Links to relevant NBA reddit threads and YouTube videos
 * Shows live scores with player, and team stats, quarter-by-quarter analysis of both teams, coaches, etc.
 * Has search feature to find players or teams easily
